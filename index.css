@@ -1,1 +1,30 @@
 @charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    background-color: red;
+    box-sizing: 100vh;
+}
+
+nav{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 100px;
+    margin: 100px;
+}
+li{
+    display: inline;
+    padding: 0px 50px;
+}
+img{
+    max-width: 200px;
+    max-height: 250px;
+}
+div#minha_foto {
+    clear: both;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

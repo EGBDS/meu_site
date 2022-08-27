@@ -9,10 +9,10 @@ h1{
 }
 
 nav{
+    min-height: 50px;
     text-align: center;
     background-color: aquamarine;
-    padding: 100px;
-    margin: 100px;
+    border: 50px;
 }
 li{
     display: inline;
@@ -25,6 +25,12 @@ img{
 div#minha_foto {
     clear: both;
     margin-top: 20px;
-    display: flex;
+    display: block;
     justify-content: center;
+    cursor: pointer;
+
+}
+div#minhafoto{
+    display: none;
+    cursor: pointer;
 }

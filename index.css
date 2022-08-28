@@ -45,6 +45,10 @@ main{
     background-color: #d6e3f1;
     text-align: justify;
 }
+#a_contato{
+    text-decoration: underline;
+    color: #1577f7;
+}
 img{
     max-width: 95vw;
     max-height: 95vh;

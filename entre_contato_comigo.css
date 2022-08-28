@@ -14,10 +14,8 @@
 }
 body{
     background-color: #580a07;
-}
-h1{
-    background-color:  #1577f7;
-    box-sizing: 100vh;
+    min-width: 360px;
+    min-height: 360px;
 }
 nav{
     min-height: 50px;
@@ -45,28 +43,26 @@ main{
     margin: 10px;
     padding: 10px;
     background-color: #d6e3f1;
-    text-align: justify;
+    text-align: center;
 }
 #a_contato{
     text-decoration: underline;
-    color: #5F9FE8;
+    color: #1577f7;
 }
 .centralizar_imagem{
-    padding: 50px;
-    display: flex;
+    padding: 10px;
+    display: flexbox;
     justify-content: center;
     align-items: center;
 }
 img{
-    background-color: #8C9C38;
+    background-color: #bb1c16;
     border-radius: 10px;
     padding: 10px;
     max-width: 80vw;
     max-height: 80vh;
     display: flexbox;
-    text-align: center;
 }
-
 #texto_imagem{
     text-decoration: none;
     color: #5F9FE8;

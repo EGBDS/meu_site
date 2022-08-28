@@ -22,11 +22,13 @@ nav{
 }
 ul{
     padding: 10px;
+    text-decoration: none;
+    display: inline-flex;
 }
 li{
+    color: white;
     display: inline;
     padding: 0px 50px;
-    color: white;
     text-decoration: underline;
 }
 a{
@@ -34,6 +36,7 @@ a{
     color: white;
 }
 main{
+    border-radius: 10px;
     min-width: 360px;
     min-height: 640px;
     margin: 10px;
@@ -42,9 +45,18 @@ main{
     text-align: justify;
 }
 p{
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1577f710;
     text-align: justify;
     text-indent: 10px;
 }
 h1, h2, h3{
+    border-radius: 10px;
+    text-align: center;
+    background-color: #30629caf;
+}
+footer{
     text-align: center;
 }

@@ -20,8 +20,11 @@ body{
 nav{
     min-height: 50px;
     text-align: center;
-    background-color: #30629C;
+    background-image: url('imagens/background-header.jpg');
     border: 50px;
+}
+li:hover > a{
+    background-color: #5F9FE8;
 }
 ul{
     padding: 10px;
@@ -63,10 +66,30 @@ img{
     max-height: 80vh;
     display: flexbox;
 }
+#img_1:hover{
+    height: 26vh;
+    width: 50vw;
+}
+#img_2:hover{
+    height: 26vh;
+    width: 50vw;
+}
+#img_3:hover{
+    height: 26vh;
+    width: 50vw;
+}
 #texto_imagem{
     text-decoration: none;
     color: #5F9FE8;
 }
 footer{
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
+}
+footer:hover > ul {
+    background-color: #a1120d;
+}
+ul:hover > li > a > div{
+    height: 100vh;
 }

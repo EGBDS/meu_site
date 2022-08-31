@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <nav>
+        <i id="burguer" class="material-icons" onclick="clickmenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="sobre_mim.html">Sobre mim</a></li>
                 <li><a href="entre_contato_comigo.html">Entre em contato comigo</a></li>
             </ul>
-        </nav>
+        </menu>
     </header>
     <main>
         <p>
@@ -23,7 +25,7 @@
         </p>
         <div><p>Não há nada de interessante no vídeo, só para exibição/teste</p></div>
         <div class="centralizar_imagem">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/G5c4VVV4GEM?autoplay=1&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Seu navegador não suporta o vídeo</iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/G5c4VVV4GEM?autoplay=1&loop=1&playlist=G5c4VVV4GEM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Seu navegador não suporta o vídeo</iframe>
         </div>
     </main>
     <footer>
@@ -31,5 +33,6 @@
             <li id="pdf_c"><a href="https://drive.google.com/file/d/17DCVBEUdRToT6dTJKhNL9czOson8DeX8/view?usp=sharing" target="_blank">Clique aqui para baixar o meu CV</a></li>
         </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

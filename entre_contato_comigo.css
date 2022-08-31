@@ -17,11 +17,23 @@ body{
     min-width: 360px;
     min-height: 360px;
 }
-nav{
+i#burguer{
+    height: 5vh;
+    color: white;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
+i#burguer:hover{
+    background-image: linear-gradient(to left, red, black);
+}
+menu{
+    display: none;
+    min-width: 50px;
     min-height: 50px;
     text-align: center;
     background-image: url('imagens/background-header.jpg');
-    border: 50px;
 }
 li:hover > a{
     background-color: #5F9FE8;

@@ -28,9 +28,9 @@ i#burguer:hover{
 }
 menu{
     display: none;
+    min-width: 50px;
     min-height: 50px;
     text-align: center;
-    border: 50px;
     background-image: url('imagens/background-header.jpg');
 }
 li:hover > a{

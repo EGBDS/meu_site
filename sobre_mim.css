@@ -14,7 +14,19 @@
 body{
     background-image: linear-gradient(to right, #bb1c16, rgba(0, 0, 0, 0.89));
 }
-nav{
+i#burguer{
+    height: 5vh;
+    color: white;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
+i#burguer:hover{
+    background-image: linear-gradient(to left, red, black);
+}
+menu{
+    display: none;
     min-width: 50px;
     min-height: 50px;
     text-align: center;

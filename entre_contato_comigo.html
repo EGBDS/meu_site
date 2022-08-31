@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="entre_contato_comigo.css">
 </head>
 <body>
     <header>
-        <nav>
+        <i id="burguer" class="material-icons" onclick="clickmenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="index.html">Página inicial</a></li>
                 <li><a href="sobre_mim.html">Sobre mim</a></li>
             </ul>
-        </nav>
+        </menu>
     </header>
     <main class="centralizar_imagem">
         <a href="https://github.com/EGBDS" target="_blank"><img id="img_1" src="imagens/github.png" alt="github"></a>
@@ -29,5 +31,6 @@
             </a></li>
         </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

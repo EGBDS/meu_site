@@ -12,7 +12,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: #580a07;
+    background-image: linear-gradient(to right, #bb1c16, rgba(0, 0, 0, 0.89));
 }
 nav{
     min-width: 50px;
@@ -58,7 +58,7 @@ p{
 h1, h2, h3{
     border-radius: 10px;
     text-align: center;
-    background-color: #30629caf;
+    background-image: linear-gradient(to right, #30629c, rgba(6, 114, 255, 0.637));
 }
 footer{
     margin-top: 20px;

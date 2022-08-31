@@ -13,7 +13,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: #580a07;
+    background-image: linear-gradient(to right, #bb1c16, rgba(0, 0, 0, 0.89));
 }
 nav{
     min-height: 50px;
@@ -61,7 +61,7 @@ main{
     align-items: center;
 }
 img{
-    background-color: #8C9C38;
+    background-image: linear-gradient(to right, #804aff, rgba(30, 255, 0, 0.89));
     border-radius: 10px;
     padding: 10px;
     max-width: 80vw;
@@ -69,9 +69,14 @@ img{
     display: flexbox;
     text-align: center;
 }
+img:hover{
+    background-image: linear-gradient(to right, #bb1c16, rgba(0, 0, 0, 0.89));
+}
 #texto_imagem{
     text-decoration: none;
     color: #5F9FE8;
+    letter-spacing: 2px;
+    text-align: center;
 }
 footer{
     margin-bottom: 10px;

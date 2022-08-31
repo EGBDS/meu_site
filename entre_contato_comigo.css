@@ -13,7 +13,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: #580a07;
+    background-image: linear-gradient(to right, #bb1c16, rgba(0, 0, 0, 0.89));
     min-width: 360px;
     min-height: 360px;
 }
@@ -67,16 +67,13 @@ img{
     display: flexbox;
 }
 #img_1:hover{
-    height: 26vh;
-    width: 50vw;
+    background-image: linear-gradient(to right, #bb1c16, rgb(0, 0, 0));
 }
 #img_2:hover{
-    height: 26vh;
-    width: 50vw;
+    background-image: linear-gradient(to right, #bb1c16, rgb(0, 0, 0));
 }
 #img_3:hover{
-    height: 26vh;
-    width: 50vw;
+    background-image: linear-gradient(to right, #bb1c16, rgb(0, 0, 0));
 }
 #texto_imagem{
     text-decoration: none;
